@@ -1,0 +1,22 @@
+# SnaPEX
+## Stadie
+SnaPEX befinder sig i et hybrid stadie, hvor de tilbyder både service og produkt.
+### Service
+* leasing af maskiner for installation af gulvvarme
+
+### produkt
+* salg af skruer der anvendes af maskinerne til montage af gulvvarme.
+
+### før
+* oversigt over komponenter til maskiner, og maskiner fastholdes i form af løs sedler
+
+### efter
+* digitaliseret oversigtssystem hvor numeriske detaljer om forsyning relateret til service og produkt er samlet.
+
+### pains
+* manuel opdatering og optælling af inventar
+* fejltælling af komponenter
+* bruger lang tid på ærte tælling
+
+### løsning
+* automatisk optælling og opdatering af antal af maskiner og komponenter i inventar

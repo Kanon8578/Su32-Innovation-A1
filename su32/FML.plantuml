@@ -1,0 +1,56 @@
+@startuml
+
+class Nøglepartnere {
+    * byggefirmaer
+    * murere test
+    * producenter af plastik dele, print
+}
+class Nøgleaktiveteter {
+    * udvikling af ERGO maskiner
+    * salg af skruer
+    * indkøb af komponenter
+}
+
+class Nøgleressourcer {
+    * ERGO maskiner
+    * skruer
+    * teknisk know how
+
+}
+
+class Værditilbud {
+    * ergonomisk installation af gulvvarme
+    * hurtigere installation
+    * mindre investering, leje
+}
+class Kunderelationer {
+    * B2B personlig
+    * faste kunder, langvarige relationer
+    * oplæring af brug af maskine
+    * vedligeholdelse, reperation
+}
+class Kundesegmenter {
+    * primært B2B
+    * byggefirmaer
+    * håndværkere
+}
+class Kannaler {
+    * telefon
+    * email
+}
+class Omkostningstruktur {
+    * indkøb af skruer
+    * indkøb af komponenter for samling af ERGO maskiner
+    * forsendelse af skruer og maskiner
+}
+class Indtægtstrømme {
+    * service, leasing af maskiner
+    * salg, skruer til maskiner
+}
+
+Hide circle
+hide methods
+
+
+
+@enduml
