@@ -1,0 +1,27 @@
+@startuml
+
+|Byggefirmaer|
+start
+:Ringer;
+:Bestiller skruer;
+
+|SnapPEX|
+:Modtager bestilling;
+:Opretter ordre-liste;
+:Printer ordre-liste til lageret;
+if (Har kasser nok til at pakke?) is (Nej) Then
+:Lager bestiller kasser;
+else (ja)
+endif
+:Lager pakker kasser med skruer;
+:Kasser klargøres til fragt;
+:Ordre meldes klar til fragt til administrationen;
+:Administrationen bestiller fragt;
+:Ordre bliver fragtet;
+|Byggefirmaer|
+:Modtager odreren;
+
+end
+
+
+@enduml
